@@ -11,12 +11,9 @@
 <body class="antialiased">
     <div id="app">
 
-<albumdisplay-component :albums="{{ json_encode($data) }}" />
+<playground-component/>
 
     </div>
     <script src="{{ mix('js/app.js') }}" defer></script>
 </body>
 </html>
-
-
-

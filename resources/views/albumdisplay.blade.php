@@ -10,8 +10,8 @@
 </head>
 <body class="antialiased">
     <div id="app">
-        <specificalbum-component :id={{ (int)$id }}  :albums="{{ json_encode($data) }}" :pictures="{{ json_encode($pictures) }}"  />
-        </div>
-        <script src="{{ mix('js/app.js') }}" defer></script>
-    </body>
-    </html>
+<specificalbum-component :id={{ (int)$id }}  :activealbum='@json($album)'  :activepictures="{{ $pictures }}"  />
+    </div>
+    <script src="{{ mix('js/app.js') }}" defer></script>
+</body>
+</html>

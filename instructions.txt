@@ -1,0 +1,12 @@
+Instruktioner
+
+1) Öppna projektet i cmd. Skriv "npm install" för att installera projektet.
+2) skriv nu php artisan serve för att starta en server lokalt.
+3) Skapa en localhost databas med namnet "ucs_laravel". (Dubbelkolla så alla detaljer stämmer i filen .env här i projektet)
+4) Öppna projektet, skriv in kommando "php artisan migrate"
+5) Nu finns all data i din databas och du kan börja kolla runt bland dem olika albumen med tillhörande bilder. 👍👍
+
+Extra information: 
+- Jag valde att köra med Vue som frontend ramverk
+- Jag valde att köra med tailwind css
+
